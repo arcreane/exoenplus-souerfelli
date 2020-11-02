@@ -1,10 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class GuessANumber {
-    public static void guessANumber(int i) {
-    }
 
-    void guessANumber() {
-
-    }
 }
