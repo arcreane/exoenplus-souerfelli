@@ -45,15 +45,14 @@ public class Main {
                     quit = true;
                     break;
                 default:
-                    System.out.println("Merci de saisir une option entre 1 et 5");
+                    System.out.println("You have to select one of the options in the menu between 1 and 5");
             }
         } catch (InputMismatchException e) {
             e.printStackTrace();
-            System.out.println("Il faut entrer un chiffre");
+            System.out.println("You need to chose one of the options above");
             scanner.nextLine();
         }
 
     }
-
 
 }
